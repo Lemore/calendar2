@@ -24,7 +24,7 @@ def cal_for_month(req_year=yy, req_month=mm):
     return template('cal_template', cal_html=cal_html)
 
 
-@route('/next')
+@route('/nxt')
 def nxt():
     global yy
     global mm
